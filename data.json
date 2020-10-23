@@ -1,5 +1,76 @@
 {
-  "projects": {
-
-  }
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Johnson Music School",
+      "description": "Design of the brand and website, development of the website.",
+      "technologies": ["HTML","CSS", "Javascript", "PHP"],
+      "live_link": "https://johnsonmusic.com.au/",
+      "github_link": "https://github.com/rachelktyjohnson/johnsonmusicschool",
+      "img_urls": ["/img/jms_thumbnail.jpg","/img/jms_1.jpg","/img/jms_2.jpg","/img/jms_3.jpg"]
+    },
+    {
+      "id": 1,
+      "project_name": "Terpsichore Dance Company",
+      "description": "Redesign of the brand, design of the website, development of the Wordpress theme.",
+      "technologies": ["HTML","CSS", "Javascript", "PHP", "MySQL", "Wordpress"],
+      "live_link": "http://www.dancewithtdc.com.au/",
+      "github_link": "#",
+      "img_urls": ["/img/tdc_thumbnail.jpg","/img/tdc_1.jpg","/img/tdc_2.jpg","/img/tdc_3.jpg"]
+    },
+    {
+      "id": 2,
+      "project_name": "DropBearEats",
+      "description": "Design and Development of a MenuLog/UberEats clone",
+      "technologies": ["HTML","SCSS", "Vue.js", "Express", "MongoDB", "Webpack"],
+      "live_link": "#",
+      "github_link": "#",
+      "img_urls": ["/img/dbe_thumbnail.jpg","/img/dbe_1.jpg","/img/dbe_2.jpg","/img/dbe_3.jpg"]
+    },
+    {
+      "id": 3,
+      "project_name": "Random User API Request",
+      "description": "Info",
+      "technologies": ["Javascript","HTTP", "AJAX", "Fetch API"],
+      "live_link": "#",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project5",
+      "img_urls": ["/img/directory_thumbnail.jpg","/img/directory_1.jpg","/img/directory_2.jpg","/img/directory_3.jpg"]
+    },
+    {
+      "id": 4,
+      "project_name": "OOP Game Show App",
+      "description": "Info",
+      "technologies": ["SCSS","Javascript"],
+      "live_link": "#",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project4",
+      "img_urls": ["/img/phrase_thumbnail.jpg","/img/phrase_1.jpg","/img/phrase_2.jpg","/img/phrase_3.jpg"]
+    },
+    {
+      "id": 5,
+      "project_name": "Interactive Javascript Form",
+      "description": "Info",
+      "technologies": ["HTML","CSS","Javascript"],
+      "live_link": "#",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project3",
+      "img_urls": ["/img/form_thumbnail.jpg","/img/form_1.jpg","/img/form_2.jpg","/img/form_3.jpg"]
+    },
+    {
+      "id": 6,
+      "project_name": "List Pagination and Filtering",
+      "description": "Info",
+      "technologies": ["Javascript"],
+      "live_link": "#",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project2",
+      "img_urls": ["/img/list_thumbnail.jpg","/img/list_1.jpg","/img/list_2.jpg","/img/list_3.jpg"]
+    },
+    {
+      "id": 7,
+      "project_name": "Random Quote Generator",
+      "description": "Info",
+      "technologies": ["CSS","Javascript"],
+      "live_link": "#",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project1",
+      "img_urls": ["/img/quote_thumbnail.jpg","/img/quote_1.jpg","/img/quote_2.jpg","/img/quote_3.jpg"]
+    }
+  ]
 }
