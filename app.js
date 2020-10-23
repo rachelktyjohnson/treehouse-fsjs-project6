@@ -16,11 +16,37 @@ app.get('/about', (req,res)=>{
     res.render('about');
 })
 app.get('/projects', (req,res)=>{
-    res.render('index');
+    res.render('index', {projects});
 })
 app.get('/projects/:id', (req,res)=>{
     let projectID = req.params.id;
     res.render('project', {project: projects[projectID]});
+})
+
+//catch all requests that make it past all the routes
+app.use((req, res, next)=>{
+    const err = new Error("Not found!");
+    err.status = 404;
+    next(err);
+})
+
+//custom error function
+app.use((err,req,res,next)=>{
+    res.status(err.status || 500);
+    if (err.status === 404){
+        res.render('page-not-found',{
+            error: {
+                status : res.status,
+                message: err.message
+            }})
+    } else {
+        res.render('error',{
+            error: {
+                status : res.status,
+                message: err.message
+            }
+        })
+    }
 })
 
 
