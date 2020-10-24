@@ -24,7 +24,7 @@
       "description": "Design and Development of a MenuLog/UberEats clone",
       "technologies": ["HTML","SCSS", "Vue.js", "Express", "MongoDB", "Webpack"],
       "live_link": "#",
-      "github_link": "#",
+      "github_link": "https://github.com/rachelktyjohnson/cosc560_a3",
       "img_urls": ["/img/dbe_thumbnail.jpg","/img/dbe_1.jpg","/img/dbe_2.jpg","/img/dbe_3.jpg"]
     },
     {
@@ -32,7 +32,7 @@
       "project_name": "Random User API Request",
       "description": "Info",
       "technologies": ["Javascript","HTTP", "AJAX", "Fetch API"],
-      "live_link": "#",
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project5/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project5",
       "img_urls": ["/img/directory_thumbnail.jpg","/img/directory_1.jpg","/img/directory_2.jpg","/img/directory_3.jpg"]
     },
@@ -41,7 +41,7 @@
       "project_name": "OOP Game Show App",
       "description": "Info",
       "technologies": ["SCSS","Javascript"],
-      "live_link": "#",
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project4/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project4",
       "img_urls": ["/img/phrase_thumbnail.jpg","/img/phrase_1.jpg","/img/phrase_2.jpg","/img/phrase_3.jpg"]
     },
@@ -50,7 +50,7 @@
       "project_name": "Interactive Javascript Form",
       "description": "Info",
       "technologies": ["HTML","CSS","Javascript"],
-      "live_link": "#",
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project3/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project3",
       "img_urls": ["/img/form_thumbnail.jpg","/img/form_1.jpg","/img/form_2.jpg","/img/form_3.jpg"]
     },
@@ -59,7 +59,7 @@
       "project_name": "List Pagination and Filtering",
       "description": "Info",
       "technologies": ["Javascript"],
-      "live_link": "#",
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project2/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project2",
       "img_urls": ["/img/list_thumbnail.jpg","/img/list_1.jpg","/img/list_2.jpg","/img/list_3.jpg"]
     },
@@ -68,7 +68,7 @@
       "project_name": "Random Quote Generator",
       "description": "Info",
       "technologies": ["CSS","Javascript"],
-      "live_link": "#",
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project1/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project1",
       "img_urls": ["/img/quote_thumbnail.jpg","/img/quote_1.jpg","/img/quote_2.jpg","/img/quote_3.jpg"]
     }

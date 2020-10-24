@@ -4,4 +4,7 @@ block content
     nav.grid-container.portfolio-breadcrumb
         a(href='/') ← Back to civilization
     article.grid-container.portfolio-intro
-        h1 Uh oh! Can't find that page
+        h1 A wild #{error.status} error appears!
+        h2= error.message
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back to civilization

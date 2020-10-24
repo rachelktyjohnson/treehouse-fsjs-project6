@@ -25,7 +25,7 @@ app.get('/projects/:id', (req,res)=>{
 
 //catch all requests that make it past all the routes
 app.use((req, res, next)=>{
-    const err = new Error("Not found!");
+    const err = new Error("This page does not exist on the server.");
     err.status = 404;
     next(err);
 })
@@ -36,13 +36,13 @@ app.use((err,req,res,next)=>{
     if (err.status === 404){
         res.render('page-not-found',{
             error: {
-                status : res.status,
+                status : err.status,
                 message: err.message
             }})
     } else {
         res.render('error',{
             error: {
-                status : res.status,
+                status : err.status,
                 message: err.message
             }
         })
@@ -53,5 +53,5 @@ app.use((err,req,res,next)=>{
 //LISTENER
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`Listening at http://localhost:${port}! Check it out!`)
 })
