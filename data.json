@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Johnson Music School",
-      "description": "Design of the brand and website, development of the website.",
+      "description": "Johnson Music School is a small local music school that offer simple lessons for students of all ages and skill levels. This website is pure HTML/CSS/Javascript and some PHP scripting with no back end or enhanced interactivity. The client had no need to change anything and so we agreed on a static setup. I am currently working on expanding the website to have a Student Portal, and I plan to build this out using PHP and MySQL. The student portal is planned to house sheet music, homework, invoices and other documents. It will allow parents/students to log in to access what they need, and teachers to log in to upload files.",
       "technologies": ["HTML","CSS", "Javascript", "PHP"],
       "live_link": "https://johnsonmusic.com.au/",
       "github_link": "https://github.com/rachelktyjohnson/johnsonmusicschool",
@@ -12,7 +12,7 @@
     {
       "id": 1,
       "project_name": "Terpsichore Dance Company",
-      "description": "Redesign of the brand, design of the website, development of the Wordpress theme.",
+      "description": "This project is TDC's website for new and interested students, with links to their own student portal. It utilises Wordpress' Advanced Custom Fields and Custom Post Types to generate different pages of dance styles. It also sports a blog section that is powered by Wordpress itself. As my client maintains the website themselves, every piece of content is easily changeable in the WP admin area to make maintenance simple for her.",
       "technologies": ["HTML","CSS", "Javascript", "PHP", "MySQL", "Wordpress"],
       "live_link": "http://www.dancewithtdc.com.au/",
       "github_link": "#",
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "project_name": "DropBearEats",
-      "description": "Design and Development of a MenuLog/UberEats clone",
+      "description": "This project was for a trimester-long University assignment where I learnt to use the MEVN stack to create a clone of popular food-delivery apps like UberEats and MenuLog. This was my first time learning anything about Javascript client-side frameworks and Javascript server-side apps. I particularly enjoyed learning how to quicly render UI elements in Vue, and I have plans to re-do this entire project with Angular instead. This was also the first time exploring a NoSQL database, and it was tricky to navigate around the differences from SQL.",
       "technologies": ["HTML","SCSS", "Vue.js", "Express", "MongoDB", "Webpack"],
       "live_link": "#",
       "github_link": "https://github.com/rachelktyjohnson/cosc560_a3",
@@ -30,7 +30,7 @@
     {
       "id": 3,
       "project_name": "Random User API Request",
-      "description": "Info",
+      "description": "This project was created as part of the Treehouse Front End Web Developer AND Full Stack Javascript TechDegrees. Here I worked with APIs for the first time. Using FetchAPI, I pulled 15 people from randomuser.me and displayed them in an \"Employee Directory\" layout. I utilized JavaScript objects quite a bit with this project and experienced populating a page using object properties. I found the display of a modal with dynamic content a thrill to create!",
       "technologies": ["Javascript","HTTP", "AJAX", "Fetch API"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project5/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project5",
@@ -39,7 +39,7 @@
     {
       "id": 4,
       "project_name": "OOP Game Show App",
-      "description": "Info",
+      "description": "This project was created as part of the Treehouse Front End Web Developer and Full Stack Javascript TechDegrees. The slight difference was the FSJS TD required this to use Objects. This was such a fun project! It was the first time I saw JavaScript as a programming language where the flow could jump from function to function, just like any other program. The instructions provided to us were clear and really helped build the project from scratch. It helped me understand the process of building a JavaScript web app from scratch.",
       "technologies": ["SCSS","Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project4/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project4",
@@ -48,7 +48,7 @@
     {
       "id": 5,
       "project_name": "Interactive Javascript Form",
-      "description": "Info",
+      "description": "This project was created for Treehouse's Full Stack Javascript TechDegree. I learnt to use client-side Javascript to dynamically show or hide certain parts of a sign-up form depending on what else was selected. I also got to use jQuery here which is a super cool library that made my life easier! I had also struggled with forms before, but this project really helped!",
       "technologies": ["HTML","CSS","Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project3/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project3",
@@ -57,7 +57,7 @@
     {
       "id": 6,
       "project_name": "List Pagination and Filtering",
-      "description": "Info",
+      "description": "This project was created for Treehouse's Full Stack Javascript TechDegree. I learnt to use client-side Javascript to limit a list to show only 10 units at a time. This was super tricky for me to wrap my head around the maths! Pagination is such an important thing to master because it's everywhere!",
       "technologies": ["Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project2/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project2",
@@ -66,7 +66,7 @@
     {
       "id": 7,
       "project_name": "Random Quote Generator",
-      "description": "Info",
+      "description": "This project was created for Treehouse's Full Stack Javascript TechDegree. I learnt to use client-side Javascript to store and generate a new quote every time the screen is loaded (or every 10 seconds as well). I also used CSS to change the background gradient colors to generate cool gradiants with every new quote!",
       "technologies": ["CSS","Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-fsjs-project1/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-fsjs-project1",
