@@ -6,5 +6,6 @@ block content
     article.grid-container.portfolio-intro
         h1 A wild #{error.status} error appears!
         h2= error.message
+        pre= error.stack
     nav.grid-container.portfolio-breadcrumb
         a(href='/') ← Back to civilization

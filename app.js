@@ -37,13 +37,15 @@ app.use((err,req,res,next)=>{
         res.render('page-not-found',{
             error: {
                 status : err.status,
-                message: err.message
+                message: err.message,
+                stack: err.stack
             }})
     } else {
         res.render('error',{
             error: {
                 status : err.status,
-                message: err.message
+                message: err.message,
+                stack: err.stack
             }
         })
     }
